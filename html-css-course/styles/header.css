@@ -1,0 +1,28 @@
+.header{
+  height:55px;
+  display: flex;
+  flex-direction: horizontal;
+  justify-content: space-between;
+}
+
+.left-section{
+  background-color:lightpink;
+  width: 150px;
+  display:flex;
+  align-items: center;
+}
+
+.hamburgermenu{
+  height: 20px;
+}
+.middle-section{
+  background-color: lightblue;
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 500px;
+}
+.right-section{
+  background-color: lightpink;
+  width: 200px;
+}
